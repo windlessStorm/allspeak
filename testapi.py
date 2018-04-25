@@ -42,6 +42,11 @@ import pyaudio
 from pygame import mixer 
 
 from six.moves import queue
+
+import os
+dir_name = os.path.dirname(os.path.realpath(__file__))
+keypath = os.path.join(dir_name, "allspeak123-45ae21614691.json")
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = keypath
 # [END import_libraries]
 
 # Audio recording parameters
