@@ -240,10 +240,13 @@ lang["tamil"] = "ta-IN"
 
 supported_lang = ["hindi", "kannada", "marathi", "bengali", "malayalam", "tamil"]
 
+default_lang = "hindi"
+
 def main():
     # See http://g.co/cloud/speech/docs/languages
     # for a list of supported languages.
-    param_lang = sys.argv[1]  # a BCP-47 language tag
+
+    param_lang = sys.argv[1] if len(sys.argv) > 1 else default_lang # a BCP-47 language tag
     
     if param_lang in supported_lang:
         language_code = lang[param_lang]
