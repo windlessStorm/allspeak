@@ -1,6 +1,6 @@
 # allspeak
 
-## Prerequisite:
+#### Prerequisite:
 
 	1. Install Google Cloud SDk. Follow steps in https://cloud.google.com/sdk/docs/
 	
