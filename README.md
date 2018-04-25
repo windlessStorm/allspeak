@@ -1,11 +1,14 @@
 # allspeak 
-```Universal Language Translator```
+`Universal Language Translator`
 
+<br><br>
 
+### Prerequisite:
 
+* Install Google Cloud SDk. Follow steps in https://cloud.google.com/sdk/docs/	
 
-#### Prerequisite:
+* Run: 
+```Bash
+	pip install -r requirement.txt
+```
 
-	1. Install Google Cloud SDk. Follow steps in https://cloud.google.com/sdk/docs/
-	
-	2. Run "pip install -r requirement.txt"
