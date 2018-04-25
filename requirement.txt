@@ -1,0 +1,5 @@
+google-cloud-texttospeech
+google-cloud-speech
+google-cloud-translate
+pygame
+
