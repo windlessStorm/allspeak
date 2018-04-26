@@ -237,8 +237,12 @@ lang["marathi"] = "mr-IN"
 lang["bengali"] = "bn-IN"
 lang["malayalam"] = "ml-IN"
 lang["tamil"] = "ta-IN"
+lang["telugu"] = "te-IN"
+lang["gujarati"] = "gu-IN"
+lang["urdu"] = "ur-IN"
 
-supported_lang = ["hindi", "kannada", "marathi", "bengali", "malayalam", "tamil"]
+
+supported_lang = ["hindi", "kannada", "marathi", "bengali", "malayalam", "tamil", "telugu", "gujarati", "urdu"]
 
 default_lang = "hindi"
 
